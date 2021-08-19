@@ -6,8 +6,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build-demo-script": "webpack --config ./babel-and-webpack/demo-script/webpack.config.js",
-    "build-demo-webpage": "webpack --config ./babel-and-webpack/demo-webpage/webpack.config.js"
+    "build-demo-script": "webpack --config src/babel-and-webpack/demo-script/webpack.config.js",
+    "build-demo-webpage": "webpack --config src/babel-and-webpack/demo-webpage/webpack.config.js"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
