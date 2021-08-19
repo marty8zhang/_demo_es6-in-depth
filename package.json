@@ -4,7 +4,7 @@
   "description": "",
   "author": "Marty Zhang <marty8zhang@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "type": "module",
   "scripts": {
     "build-demo-script": "webpack --config ./babel-and-webpack/demo-script/webpack.config.js",
     "build-demo-webpage": "webpack --config ./babel-and-webpack/demo-webpage/webpack.config.js"
